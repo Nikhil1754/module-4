@@ -1,0 +1,46 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@Nikhil1754 
+goggle
+/
+Coursera_HTML-CSS-Javascript-for-Web-Developers
+11
+27272
+ Code
+ Issues 0
+ Pull requests 3 Actions
+ Projects 0
+ Wiki
+ Security 0
+ Insights
+Coursera_HTML-CSS-Javascript-for-Web-Developers/module4_solution/SpeakGoodBye.js /
+@goggle goggle Solved assignment 4.
+c5bc8e9 on Dec 17, 2016
+8 lines (8 sloc)  233 Bytes
+  
+(function(window) {
+    var byeSpeaker = new Object();
+    var speakWord = "Good Bye";
+    byeSpeaker.speak = function speak(name) {
+        console.log(speakWord + " " + name);
+    };
+    window.byeSpeaker = byeSpeaker;
+})(window);
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
